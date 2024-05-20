@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+        <LinearLayout
+                android:layout_marginStart="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+            <ImageButton
+                    android:id="@+id/img_mua_sam_vnshop"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btn_bo_img_chuyen_tien"
+                    app:srcCompat="@drawable/muasamvnshop"
+                    android:scaleType="centerInside"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/tv_mua_sam_vnshop"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:text="Mua sẵm VnShop" />
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:orientation="vertical">
+
+            <ImageButton
+                    android:id="@+id/img_dat_ve_may_bay"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btn_bo_img_chuyen_tien"
+                    app:srcCompat="@drawable/datvemaybay"
+                    android:scaleType="centerInside"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/tv_dat_ve_may_bay"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:text="Đặt vé máy bay" />
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_weight="1"
+                android:layout_marginStart="60dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <ImageButton
+                    android:id="@+id/img_dat_phong_khach_san"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btn_bo_img_chuyen_tien"
+                    app:srcCompat="@drawable/datphongkhachsan"
+                    android:scaleType="centerInside"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/tv_dat_phong_khach_san"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:text="Đặt phòng khách sạn" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+        <LinearLayout
+                android:layout_marginStart="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+            <ImageButton
+                    android:id="@+id/img_vnpay_taxi"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btn_bo_img_chuyen_tien"
+                    app:srcCompat="@drawable/vnpaytaxi"
+                    android:scaleType="centerInside"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/tv_vnpay_taxi"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:text="VNPAY taxi" />
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:orientation="vertical">
+
+            <ImageButton
+                    android:id="@+id/img_dat_ve_xe"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btn_bo_img_chuyen_tien"
+                    app:srcCompat="@drawable/datvexe"
+                    android:scaleType="centerInside"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/tv_dat_ve_xe"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:text="Đặt vé xe" />
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_weight="1"
+                android:layout_marginStart="60dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <ImageButton
+                    android:id="@+id/img_dat_hoa"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btn_bo_img_chuyen_tien"
+                    app:srcCompat="@drawable/dathoa"
+                    android:scaleType="centerInside"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/tv_dat_hoa"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:text="Đặt hoa" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <LinearLayout
+                android:layout_marginStart="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <ImageButton
+                    android:id="@+id/img_dat_ve_tau"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btn_bo_img_chuyen_tien"
+                    app:srcCompat="@drawable/datvetau"
+                    android:scaleType="centerInside"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/tv_dat_ve_tau"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:text="Đặt vé tàu" />
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:orientation="vertical">
+
+            <ImageButton
+                    android:id="@+id/img_dat_ve_xem_phim"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btn_bo_img_chuyen_tien"
+                    app:srcCompat="@drawable/datvexemphim"
+                    android:scaleType="centerInside"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/tv_dat_ve_xem_phim"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:text="Đặt vé xem phim" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

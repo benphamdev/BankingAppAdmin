@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:weightSum="3"
+        android:gravity="center">
+
+    <LinearLayout
+            android:layout_marginStart="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+        <ImageButton
+                android:id="@+id/img_bao_hiem_xa_hoi"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_bo_img_chuyen_tien"
+                app:srcCompat="@drawable/baohiemxahoi"
+                android:scaleType="centerInside"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <TextView
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:id="@+id/tv_bao_hiem_xa_hoi"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="Bảo hiểm xã hội" />
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:orientation="vertical">
+
+        <ImageButton
+                android:id="@+id/img_nop_phi_ha_tang_cang_bien"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_bo_img_chuyen_tien"
+                app:srcCompat="@drawable/nopphihatangcangbien"
+                android:scaleType="centerInside"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <TextView
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:id="@+id/tv_nop_phi_ha_tang_cang_bien"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="Nộp phí hạ tầng cảng biển" />
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_weight="1"
+            android:layout_marginStart="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <ImageButton
+                android:id="@+id/img_nop_thue_truoc_ba"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_bo_img_chuyen_tien"
+                app:srcCompat="@drawable/nopthuetruocba"
+                android:scaleType="centerInside"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <TextView
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:id="@+id/tv_nop_thue_truoc_ba"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="Tất toán khoản vay" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:weightSum="3"
+        android:gravity="center">
+
+    <LinearLayout
+            android:layout_marginStart="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+        <ImageButton
+                android:id="@+id/img_trongvcb"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_bo_img_chuyen_tien"
+                app:srcCompat="@drawable/trongvcb"
+                android:scaleType="centerInside"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <TextView
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:id="@+id/tv_trongvcb"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="Chuyển tiền trong VCB"
+                android:layout_marginTop="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:orientation="vertical">
+
+        <ImageButton
+                android:id="@+id/img_nhanh_24"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_bo_img_chuyen_tien"
+                app:srcCompat="@drawable/chuyentienngoai24"
+                android:scaleType="centerInside"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <TextView
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:id="@+id/tv_nhanh_24"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="Chuyển tiền nhanh 24/7 ngoài VCB"
+                android:layout_marginTop="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_weight="1"
+            android:layout_marginStart="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <ImageButton
+                android:id="@+id/img_nuoc_ngoai"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_bo_img_chuyen_tien"
+                app:srcCompat="@drawable/nuocngoai"
+                android:scaleType="centerInside"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <TextView
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:id="@+id/tv_nuoc_ngoai"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="Chuyển tiền đi nước ngoài"
+                android:layout_marginTop="5dp" />
+    </LinearLayout>
+</LinearLayout>
